@@ -11,36 +11,14 @@
 		<!-- Directive -->
 		<script src="directives/ventana/ventana.directive.js"></script>
 		<script src="directives/ventana/ventana.controller.js"></script>
-		<style>
-			div.ex3 {
-    background-color: lightblue;
-    width: 120px;
-    height: 120px;
-    overflow: auto;
-}
-		</style>
     
 	</head>
 	<body ng-app='miApp' ng-controller="miCtrl as mc">
 			{{mc.mensaje}}
 		<br>	
-<h2>overflow: auto:</h2>
-<div id="scroll" class="ex3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</div>
+
 		<directive-ventana data="mc.data" ></directive-ventana>
 
-		<script>
-			// Capture all scroll events
-			document.addEventListener('scroll', function(e) {
-				var scroll = e.target.scrollTop;
-			    //console.log('scrolled: ' + e.target.tagName);
-			    //console.log('current pos: ' + scroll);
 
-			    if (scroll == 56) {
-			    	console.log("abajo")
-			    }else if(scroll == 0){
-			    	console.log("arriba")
-			    }else{}
-			}, true);
-		</script>
 	</body>
 </html>
