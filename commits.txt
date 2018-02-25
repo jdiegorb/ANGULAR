@@ -1,0 +1,11 @@
+commit 868c909c829a12e0a7517444c214eb604bb81bfc
+Author: Diego <j.diego.rb@gmail.com>
+Date:   Sat Feb 24 20:56:26 2018 -0300
+
+    cambio de ancho y alto
+
+commit 1a543025e505a35dd5f004f57bf6fde5abd4a290
+Author: Diego <j.diego.rb@gmail.com>
+Date:   Sat Feb 24 19:03:59 2018 -0300
+
+    Iniciacion de Proyecto ANGULAR
